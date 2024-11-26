@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('gg.jpg'); /* Background image */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    position: relative;
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Transparent overlay on background image */
+    z-index: -1;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 1.2em;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1); /* Transparent container background */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ffcc00;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 1.3em;
+    line-height: 1.6em;
+    color: #ccc;
+    text-align: center;
+}
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-logo {
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    transition: transform 0.3s;
+}
+
+.social-logo:hover {
+    transform: scale(1.1);
+}
+
+/* Latest Video Section */
+.latest-video {
+    text-align: center;
+    margin: 20px 0;
+}
+
+iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Sticky Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px 6;
+    position: relative;
+
+}
+
+button.copy-email-btn {
+    background-color: #ffcc00; /* Yellow background for button */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.copy-email-btn:hover {
+    background-color: #100d00; /* Darker yellow on hover */
+}
