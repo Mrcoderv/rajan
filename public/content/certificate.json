@@ -1,16 +1,23 @@
 [
   {
-    "title": "Responsive Web Design",
-    "issuer": "freeCodeCamp",
-    "date": "2024",
-    "credentialId": "Add credential ID",
-    "url": "https://www.freecodecamp.org/certification/"
+    "title": "Basic Computer Course",
+    "issuer": "Professional Training",
+    "date": "Completed",
+    "credentialId": "",
+    "url": ""
   },
   {
-    "title": "JavaScript Algorithms and Data Structures",
-    "issuer": "freeCodeCamp",
-    "date": "2024",
-    "credentialId": "Add credential ID",
-    "url": "https://www.freecodecamp.org/certification/"
+    "title": "Accounting Package",
+    "issuer": "Professional Training",
+    "date": "Completed",
+    "credentialId": "",
+    "url": ""
+  },
+  {
+    "title": "Co-operatives Training",
+    "issuer": "Professional Training",
+    "date": "Completed",
+    "credentialId": "",
+    "url": ""
   }
 ]

@@ -1,17 +1,17 @@
 {
-  "name": "Raghav Panthi",
-  "role": "Frontend Developer & Creative Technologist",
-  "location": "Nepal",
+  "name": "Rajan Aryal",
+  "role": "Accounts, Sales & Marketing Professional",
+  "location": "Butwal / Arghakhanchi, Nepal",
   "availability": "Open to opportunities",
-  "intro": "I design and build thoughtful digital experiences where clean interfaces, useful technology, and human stories meet.",
-  "bio": "I am a developer focused on turning ideas into fast, accessible, and memorable products. My work blends frontend craft with a curiosity for systems, visual storytelling, and continuous learning.",
-  "email": "raghav.panthi@gmail.com",
-  "phone": "+977 9800000000",
+  "intro": "A motivated and enthusiastic professional ready to contribute communication, sales, and interpersonal skills to a growing organization.",
+  "bio": "I am an adaptable professional with experience across accounts, audit, sales, marketing, procurement, and hospitality. I enjoy building strong working relationships, learning quickly, and taking ownership of responsibilities that help teams succeed.",
+  "email": "rajanaryal508@gmail.com",
+  "phone": "+977 9749782350",
   "avatar": "pp.png",
+  "cv": "/cv/rajan_aryal_cv.pdf",
   "socials": [
     { "label": "GitHub", "url": "https://github.com/Mrcoderv" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/" },
-    { "label": "Instagram", "url": "https://www.instagram.com/" }
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/" }
   ],
-  "skills": ["HTML", "CSS", "JavaScript", "React", "Next.js", "Git", "UI Design"]
+  "skills": ["Sales & Marketing", "Negotiation", "Communication & Presentation", "Teamwork & Leadership", "Decision Making", "Observation", "Multi-tasking", "Video Editing"]
 }
