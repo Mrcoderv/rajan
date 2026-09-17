@@ -1,0 +1,17 @@
+{
+  "name": "Raghav Panthi",
+  "role": "Frontend Developer & Creative Technologist",
+  "location": "Nepal",
+  "availability": "Open to opportunities",
+  "intro": "I design and build thoughtful digital experiences where clean interfaces, useful technology, and human stories meet.",
+  "bio": "I am a developer focused on turning ideas into fast, accessible, and memorable products. My work blends frontend craft with a curiosity for systems, visual storytelling, and continuous learning.",
+  "email": "raghav.panthi@gmail.com",
+  "phone": "+977 9800000000",
+  "avatar": "pp.png",
+  "socials": [
+    { "label": "GitHub", "url": "https://github.com/Mrcoderv" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/" },
+    { "label": "Instagram", "url": "https://www.instagram.com/" }
+  ],
+  "skills": ["HTML", "CSS", "JavaScript", "React", "Next.js", "Git", "UI Design"]
+}

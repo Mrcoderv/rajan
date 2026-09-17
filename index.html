@@ -1,57 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajan Aryal - Profile</title> 
-    <link rel="icon" href="pp.png" type="image/icon type">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional portfolio of Raghav Panthi — frontend developer and creative technologist.">
+  <title>Raghav Panthi — Developer Portfolio</title>
+  <link rel="icon" href="pp.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="navbar">
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Latest Video</a></li>
-        </ul>
-    </div>
+  <div class="site-shell">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#top"><span class="brand-mark">RP</span><span data-profile="name">Raghav Panthi</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#work">Certificates</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </div>
+      <a class="nav-cv" href="cv/raghav_panthi_cv.pdf" download>Download CV <span>↗</span></a>
+    </nav>
 
-    <div class="container">
-        <header>
-            <img src="pp.png" alt="Rajan Aryal Logo" class="logo">
-            <h1>Rajan Aryal</h1>
-            <p class="description">I am a content creator from a small town, Arghakhanchi, Nepal. Join me on my journey as I explore the beautiful landscapes, vibrant culture, and everyday life of Nepal. From the bustling streets of Butwal Bazar to serene countryside adventures, my vlogs capture the essence of Nepali life.</p>
-        </header>
-
-        <section class="contact">
-            <p c>Email: <a href="mailto:Rajanaryal@gmail.com">Rajanaryal@gmail.com</a></p>
-            <button id="copy-email-btn" class="copy-email-btn">Copy Email</button>
-            <span id="copy-status" class="copy-status"></span>
-        </section>
-
-        <section class="social-media">
-            <h2>Follow Me</h2>
-            <div class="social-icons">
-                <a href="https://www.youtube.com/@Rajan_Aryal" target="_blank"><img src="YouTube-Icon-Full-Color-Logo.wine.png" alt="YouTube Logo" class="social-logo"></a>
-                <a href="https://www.tiktok.com/@chyapa_rjn" target="_blank"><img src="tiktok-logo-0-1.png" alt="TikTok Logo" class="social-logo"></a>
-                <a href="https://www.instagram.com/rajanvlogs123/" target="_blank"><img src="Instagram-Logo.wine.png" alt="Instagram Logo" class="social-logo"></a>
-            </div>
-        </section>
-
-        <section class="latest-video">
-                <h2>Latest Video</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/SbiaCE0DMYA" frameborder="0" allowfullscreen></iframe>
-    
-        </section>
-    </div>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 github:MrcoderV. All Rights Reserved.</p>
+    <main id="top">
+      <section class="hero section-grid" id="about">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span><span data-profile="availability">Open to opportunities</span></p>
+          <h1>Building digital work with <em>clarity</em> and character.</h1>
+          <p class="hero-intro" data-profile="intro">I design and build thoughtful digital experiences where clean interfaces, useful technology, and human stories meet.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#contact">Let&apos;s work together <span>↗</span></a><a class="text-link" href="#work">Explore my credentials <span>↓</span></a></div>
         </div>
-    </footer>
+        <div class="hero-visual"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="portrait-wrap"><img src="pp.png" alt="Portrait of Raghav Panthi"><span class="portrait-label">Developer<br><strong>01 / 04</strong></span></div><div class="visual-note">Curious by default.<br>Intentional by design.</div></div>
+      </section>
 
-    <script src="script.js"></script>
+      <section class="marquee" aria-label="Areas of expertise"><span>Frontend development</span><i>✦</i><span>Digital experiences</span><i>✦</i><span>Creative technology</span><i>✦</i><span>Frontend development</span></section>
+
+      <section class="about-section section-grid"><div><p class="section-kicker">01 / About me</p><h2>Thoughtful work,<br><em>made useful.</em></h2></div><div class="about-detail"><p data-profile="bio">I am a developer focused on turning ideas into fast, accessible, and memorable products. My work blends frontend craft with a curiosity for systems, visual storytelling, and continuous learning.</p><div class="skill-list" data-skills></div></div></section>
+
+      <section class="content-section" id="work"><div class="section-heading"><div><p class="section-kicker">02 / Certifications</p><h2>Proof of <em>practice.</em></h2></div><p class="section-aside">A growing collection of credentials and milestones from my learning journey.</p></div><div class="certificate-grid" data-certificates></div></section>
+
+      <section class="content-section" id="education"><div class="section-heading"><div><p class="section-kicker">03 / Education</p><h2>Always <em>learning.</em></h2></div></div><div class="education-list" data-education></div></section>
+
+      <section class="contact-section" id="contact"><p class="section-kicker">04 / Get in touch</p><h2>Have a good idea?<br><em>Let&apos;s make it real.</em></h2><div class="contact-row"><a class="email-link" data-profile="email" href="mailto:raghav.panthi@gmail.com">raghav.panthi@gmail.com</a><button class="copy-button" id="copy-email-btn">Copy email</button></div></section>
+    </main>
+    <footer><span>© 2024 <span data-profile="name">Raghav Panthi</span></span><span>Designed &amp; built with intention.</span><a href="#top">Back to top ↑</a></footer>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
