@@ -4,20 +4,23 @@
     "issuer": "Professional Training",
     "date": "Completed",
     "credentialId": "",
-    "url": ""
+    "url": "",
+    "image": ""
   },
   {
     "title": "Accounting Package",
     "issuer": "Professional Training",
     "date": "Completed",
     "credentialId": "",
-    "url": ""
+    "url": "",
+    "image": ""
   },
   {
     "title": "Co-operatives Training",
     "issuer": "Professional Training",
     "date": "Completed",
     "credentialId": "",
-    "url": ""
+    "url": "",
+    "image": ""
   }
 ]
