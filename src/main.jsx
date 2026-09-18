@@ -12,8 +12,8 @@ const contentFiles = {
 const portraitSlides = [
   { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rajannn-BMcnk5weQuyTKH2Tn4lLIxxewGXrEZ.png', alt: 'Rajan Aryal in a professional suit' },
   { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-e7dAC0VaPrdEYmjroddX3i9dWGMOXF.png', alt: 'Rajan Aryal seated outdoors' },
-  { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DckHJGqCKlpnFXvHkvwmTlrFwzGdF1.png', alt: 'Rajan Aryal standing in a black jacket' },
-  { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-qraplqkFHh17AxL5nzOPIdCnBFqW1n.png', alt: 'Rajan Aryal on a mountain bridge' },
+  { src: '/images/rajan-outdoor.png', alt: 'Rajan Aryal standing in a black jacket' },
+  { src: '/images/rajan-mountain.png', alt: 'Rajan Aryal on a mountain bridge' },
 ]
 
 function App() {
