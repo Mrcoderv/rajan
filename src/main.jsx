@@ -59,7 +59,7 @@ function App() {
       <section className="content-section" id="education"><div className="section-heading"><div><p className="section-kicker">03 / Education</p><h2>Always <em>learning.</em></h2></div></div><div className="education-list">{content.education.map((item) => <article className="education-item" key={item.degree}><time>{item.period}</time><div><h3>{item.degree}</h3><p>{item.description}</p></div><span className="institution">{item.institution}</span></article>)}</div></section>
       <section className="contact-section" id="contact"><p className="section-kicker">04 / Get in touch</p><h2>Have a good idea?<br /><em>Let&apos;s make it real.</em></h2><div className="contact-row"><a className="email-link" href={`mailto:${profile.email}`}>{profile.email}</a><button className="copy-button" onClick={copyEmail}>{copied ? 'Copied' : 'Copy email'}</button></div><div className="social-links" aria-label="Social media links">{content.contact.socials.map((social) => <a key={social.label} href={social.url} target="_blank" rel="noreferrer">{social.label} ↗</a>)}</div></section>
     </main>
-    <footer><span>© 2024 {profile.name}</span><span>Designed &amp; built with intention.</span><a href="#top">Back to top ↑</a></footer>
+    <footer><span>© 2024 {profile.name}</span><span>Designed &amp; built with intention.</span><a href="https://github.com/Mrcoderv" target="_blank" rel="noreferrer">github.com/Mrcoderv</a><a href="#top">Back to top ↑</a></footer>
   </div>
 }
 
