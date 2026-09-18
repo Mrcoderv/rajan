@@ -9,9 +9,22 @@ const contentFiles = {
   contact: '/content/contact.json',
 }
 
+const portraitSlides = [
+  { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rajannn-BMcnk5weQuyTKH2Tn4lLIxxewGXrEZ.png', alt: 'Rajan Aryal in a professional suit' },
+  { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-e7dAC0VaPrdEYmjroddX3i9dWGMOXF.png', alt: 'Rajan Aryal seated outdoors' },
+  { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DckHJGqCKlpnFXvHkvwmTlrFwzGdF1.png', alt: 'Rajan Aryal standing in a black jacket' },
+  { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-qraplqkFHh17AxL5nzOPIdCnBFqW1n.png', alt: 'Rajan Aryal on a mountain bridge' },
+]
+
 function App() {
   const [content, setContent] = useState({ profile: null, certificates: [], education: [], contact: { socials: [] } })
   const [copied, setCopied] = useState(false)
+  const [portraitIndex, setPortraitIndex] = useState(0)
+
+  useEffect(() => {
+    const timer = window.setInterval(() => setPortraitIndex((current) => (current + 1) % portraitSlides.length), 4500)
+    return () => window.clearInterval(timer)
+  }, [])
 
   useEffect(() => {
     Promise.all(Object.values(contentFiles).map((file) => fetch(file).then((response) => response.json())))
@@ -39,7 +52,7 @@ function App() {
     <main id="top">
       <section className="hero section-grid" id="about">
         <div className="hero-copy"><p className="eyebrow"><span className="status-dot" />{profile.availability}</p><h1>Building professional growth with <em>clarity</em> and character.</h1><p className="hero-intro">{profile.intro}</p><div className="hero-actions"><a className="button button-primary" href="#contact">Let&apos;s work together <span>↗</span></a><a className="text-link" href="#work">Explore my credentials <span>↓</span></a></div></div>
-        <div className="hero-visual"><div className="orbit orbit-one" /><div className="orbit orbit-two" /><div className="portrait-wrap"><img src={`/${profile.avatar}`} alt={`Portrait of ${profile.name}`} /><span className="portrait-label">Professional<br /><strong>01 / 04</strong></span></div><div className="visual-note">Curious by default.<br />Intentional by design.</div></div>
+        <div className="hero-visual"><div className="orbit orbit-one" /><div className="orbit orbit-two" /><div className="portrait-wrap"><img key={portraitSlides[portraitIndex].src} className="portrait-slide" src={portraitSlides[portraitIndex].src} alt={portraitSlides[portraitIndex].alt} /><span className="portrait-label">Professional<br /><strong>{String(portraitIndex + 1).padStart(2, '0')} / {String(portraitSlides.length).padStart(2, '0')}</strong></span><div className="portrait-controls" aria-label="Portrait slideshow controls"><button type="button" onClick={() => setPortraitIndex((portraitIndex - 1 + portraitSlides.length) % portraitSlides.length)} aria-label="Previous portrait">←</button>{portraitSlides.map((slide, index) => <button type="button" className={index === portraitIndex ? 'is-active' : ''} onClick={() => setPortraitIndex(index)} aria-label={`Show portrait ${index + 1}`} key={slide.src}><span /></button>)}<button type="button" onClick={() => setPortraitIndex((portraitIndex + 1) % portraitSlides.length)} aria-label="Next portrait">→</button></div></div><div className="visual-note">Curious by default.<br />Intentional by design.</div></div>
       </section>
 
       <section className="marquee" aria-label="Areas of expertise"><span>Sales &amp; marketing</span><i>✦</i><span>Accounts &amp; audit</span><i>✦</i><span>Communication</span><i>✦</i><span>Sales &amp; marketing</span></section>
