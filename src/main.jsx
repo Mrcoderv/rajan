@@ -12,6 +12,8 @@ const contentFiles = {
 const portraitSlides = [
   { src: '/images/rajan-outdoor.png', alt: 'Rajan Aryal standing in a black jacket outdoors' },
   { src: '/images/rajan-mountain.png', alt: 'Rajan Aryal on a mountain bridge' },
+  { src: '/images/rajan-yellow.png', alt: 'Rajan Aryal smiling in front of a yellow background' },
+  { src: '/images/rajan-formal.png', alt: 'Rajan Aryal wearing a black suit and tie' },
 ]
 
 function App() {
