@@ -1,0 +1,17 @@
+{
+  "name": "Rajan Aryal",
+  "role": "Accounts, Sales & Marketing Professional",
+  "location": "Butwal / Arghakhanchi, Nepal",
+  "availability": "Open to opportunities",
+  "intro": "A motivated and enthusiastic professional ready to contribute communication, sales, and interpersonal skills to a growing organization.",
+  "bio": "I am an adaptable professional with experience across accounts, audit, sales, marketing, procurement, and hospitality. I enjoy building strong working relationships, learning quickly, and taking ownership of responsibilities that help teams succeed.",
+  "email": "rajanaryal508@gmail.com",
+  "phone": "+977 9749782350",
+  "avatar": "pp.png",
+  "cv": "/cv/rajan_aryal_cv.pdf",
+  "socials": [
+    { "label": "GitHub", "url": "https://github.com/Mrcoderv" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/" }
+  ],
+  "skills": ["Sales & Marketing", "Negotiation", "Communication & Presentation", "Teamwork & Leadership", "Decision Making", "Observation", "Multi-tasking", "Video Editing"]
+}
