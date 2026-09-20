@@ -1,0 +1,29 @@
+{
+  "channels": [
+    {
+      "platform": "TikTok",
+      "handle": "@rjn.vibe",
+      "description": "Short-form stories, energy, and everyday perspective.",
+      "url": "https://www.tiktok.com/@rjn.vibe"
+    },
+    {
+      "platform": "Instagram",
+      "handle": "@rjnvibe",
+      "description": "Visual notes, reels, and moments worth sharing.",
+      "url": "https://www.instagram.com/rjnvibe/"
+    }
+  ],
+  "instagramPosts": [
+    "REPLACE_WITH_REEL_ID_1",
+    "REPLACE_WITH_REEL_ID_2"
+  ],
+  "__comment": "Replace the placeholder IDs above with IDs copied from real Instagram reel URLs.",
+  "skills": [
+    "Video editing",
+    "Short-form storytelling",
+    "Scripting",
+    "Thumbnail design",
+    "Shooting & framing",
+    "Audience engagement"
+  ]
+}
