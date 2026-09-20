@@ -1,13 +1,5 @@
 [
   {
-    "title": "Basic Computer Course",
-    "issuer": "Professional Training",
-    "date": "Completed",
-    "credentialId": "",
-    "url": "",
-    "image": ""
-  },
-  {
     "title": "Accounting Package",
     "issuer": "Professional Training",
     "date": "Completed",
@@ -16,11 +8,21 @@
     "image": ""
   },
   {
-    "title": "Co-operatives Training",
-    "issuer": "Professional Training",
-    "date": "Completed",
+    "title": "Cooperative Accounting Management Training",
+    "issuer": "Sahakari Prashikshyalaya, Nepalgunj (Banke)",
+    "issuerDetail": "Ministry of Economic Affairs and Cooperatives, Lumbini Province",
+    "date": "Falgun 2079 BS (Feb–Mar 2023)",
     "credentialId": "",
     "url": "",
-    "image": ""
+    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/nepalgunj-hgLLbiSip1TT0Pj42bHa9BDmDmSpZD.webp"
+  },
+  {
+    "title": "Diploma in Office Handling Package",
+    "issuer": "Login Education and Technical Network Pvt. Ltd., Butwal",
+    "issuerDetail": "Affiliated by CTEVT",
+    "date": "Apr 2023 – Sep 2023",
+    "credentialId": "",
+    "url": "",
+    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Diploma%20in%20Office%20Handling%20Package.png-PX8PsVg4bAM3vqlU9lsm9mvgBrReWq.jpeg"
   }
 ]
