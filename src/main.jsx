@@ -16,6 +16,13 @@ const portraitSlides = [
   { src: '/images/rajan-mountain.png', alt: 'Rajan Aryal on a mountain bridge' },
   { src: '/images/rajan-yellow.png', alt: 'Rajan Aryal smiling in front of a yellow background' },
   { src: '/images/rajan-formal.png', alt: 'Rajan Aryal wearing a black suit and tie' },
+  { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_20241003_172854_183.jpg-OKdwxs40Q0u96jrWLzopr7t6MHZl0w.jpeg', alt: 'Rajan Aryal wearing sunglasses beside a waterfall' },
+  { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-NibkiHVNkwkjqYZQuDWAYRhuukoS0Q.jpeg', alt: 'Rajan Aryal standing beside a river and forested hills' },
+  { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2024-10-03%2017_18_17.jpg-E1tlm3muxXoKk58IWqON0JqQdZ4ErZ.jpeg', alt: 'Rajan Aryal facing a waterfall with his arms outstretched' },
+  { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_2300~2.jpg-KJDGr1P0pbPuW8qQ3ALIOoNeD8VDKw.jpeg', alt: 'Rajan Aryal smiling in a forest beside colorful tires' },
+  { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_20260913_220241_890.jpg.jpeg-NUB3WCYW6JtC3ylphItTpFkc4TYWHf.webp', alt: 'Rajan Aryal wearing sunglasses in front of mountain scenery' },
+  { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_20260913_220242_262.jpg.jpeg-wtt20X7R9EgtE3Gwt7pzX66JKrxMdG.webp', alt: 'Rajan Aryal smiling in a white jacket' },
+  { src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot_20260124_205834_Instagram.jpg-LZHhf5RyNokTgfbGyiQtKx8hQmKDlJ.jpeg', alt: 'Rajan Aryal wearing a light blue blazer in a garden' },
 ]
 
 function InstagramEmbed({ postUrl }) {
